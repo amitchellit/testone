@@ -1,0 +1,69 @@
+
+nav {
+    background-color: #000000;
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+nav ul li  {
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin:5px;
+    border:2px solid red;
+    border-radius:60px
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover 
+{ background-color : rgb(27, 186, 183)}
+
+
+
+header {
+  background-color:  #7796a5 ;
+  padding : 10px     
+}
+
+
+
+footer {
+    padding: 0;
+    margin: 0;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #000000 ;
+}
+
+footer p {
+    text-align: center;
+    color : white;
+
+}
+
+body {
+    font-family: Verdana;
+    margin:0;
+}
+ .product  {
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px; 
+}
+
+#active {
+   border:2px solid rgba(236, 255, 10, 0.91);
+}
